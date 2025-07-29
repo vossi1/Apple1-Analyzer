@@ -20,7 +20,9 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     - programmable stop address
     - with cmos 6502 it shows also write cycles
     - OpC LED shows start of new instruction
-    - the LED in the step-key shows CPU is stopped and ready for single step
+    - the LED in the step-key shows CPU is stopped and ready for stepping
+    - compatible with Wendell Sander's Expansion board (unbufferd mode!)
+      * at the Expansion the address lines are also buffered!
 
 ![card](https://github.com/vossi1/Apple1-Analyzer/blob/master/photos/analyzer_01.jpg)
 
@@ -40,12 +42,19 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
     GERBER v1.1 have only a minimal change at IRQ+NMI-LED anode, but are still untested!
     GERBER v1.0 are tested and it's only a small cut and connection needed, to connect 
-    IRQ+NMI-LED anodes to +5V cut the connection to GND.
+    IRQ+NMI-LED anodes to +5V cut the connection to GND. (File photos/patch_v10.jpg)
 
     The 7407 is optional for an open collector Ready output. It is only needed if another
     source drives the ready line. The jumper selects if 7407 is present or not.
+    
+    A 7474 or maybe a 74LS74 should also work, but the FlipFlop drives many TTL inputs.
+    
+    74HCT374 were used so as not to overload the bus
+
     You can use a cheap toggle switch or an ITT shadow on/off switch for Enable.
+    
     The LED in the step-key is optional.
+    
     You can use TIL311 or DIS1417 hex displays.
 
 **version changes:**
