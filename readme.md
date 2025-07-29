@@ -22,7 +22,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     - OpC LED shows start of new instruction
     - the LED in the step-key shows CPU is stopped and ready for stepping
     - compatible with Wendell Sander's Expansion board (unbufferd mode!)
-      * at the Expansion the address lines are also buffered!
+      * with the expansion, the address lines are also buffered, which is recommended!
 
 ![card](https://github.com/vossi1/Apple1-Analyzer/blob/master/photos/analyzer_01.jpg)
 
@@ -47,9 +47,9 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     The 7407 is optional for an open collector Ready output. It is only needed if another
     source drives the ready line. The jumper selects if 7407 is present or not.
     
-    A 7474 or maybe a 74LS74 should also work, but the FlipFlop drives many TTL inputs.
+    A 7474 or maybe a 74LS74 should also works, but the FlipFlop drives many TTL inputs.
     
-    74HCT374 were used so as not to overload the bus
+    74HCT374 were used so as not to overload the bus!
 
     You can use a cheap toggle switch or an ITT shadow on/off switch for Enable.
     
