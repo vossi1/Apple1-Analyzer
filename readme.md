@@ -39,9 +39,11 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 **comments:**
 
     GERBER v1.1 have only a minimal change at IRQ+NMI-LED anode, but are still untested!
-    GERBER v1.0 are tested and it's only a small cut and connection needed, to connect IRQ+NMI-LED anodes to +5V cut the connection to GND.
+    GERBER v1.0 are tested and it's only a small cut and connection needed, to connect 
+    IRQ+NMI-LED anodes to +5V cut the connection to GND.
 
-    The 7407 is optional for an open collector Ready output. It is only needed if another source drives the ready line. The jumper selects if 7407 is present or not.
+    The 7407 is optional for an open collector Ready output. It is only needed if another
+    source drives the ready line. The jumper selects if 7407 is present or not.
     You can use a cheap toggle switch or an ITT shadow on/off switch for Enable.
     The LED in the step-key is optional.
     You can use TIL311 or DIS1417 hex displays.
