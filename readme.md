@@ -26,7 +26,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
 **[Schematic](https://github.com/vossi1/Apple1-Analyzer/blob/master/schematic_v11.png)**
 
-**[Parts](https://github.com/vossi1/Apple1-Analyzer/blob/master/part_v11.txt)**
+**[Parts](https://github.com/vossi1/Apple1-Analyzer/blob/master/parts_v11.txt)**
 
 **function:**
 
