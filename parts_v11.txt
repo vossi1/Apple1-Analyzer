@@ -1,0 +1,50 @@
+Partlist
+
+Exported from a1-analyzer.sch at 17.07.25 13:39
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device           Package       Library  Sheet
+
+C1       220n           C_CERAMIC_5MM    _C5MM         _smd     1
+C2       100n           C_CERAMIC_5MM    _C5MM         _smd     1
+C3       100n           C_CERAMIC_5MM    _C5MM         _smd     1
+C4       100n           C_CERAMIC_5MM    _C5MM         _smd     1
+C5       100n           C_CERAMIC_5MM    _C5MM         _smd     1
+IC1      74S74N         74S74N           _DIL14        _smd     1
+IC2      74HCT573N      74HCT573N        _DIL20        _smd     1
+IC3      TIL311         TIL311           _DIL14        _smd     1
+IC4      TIL311         TIL311           _DIL14        _smd     1
+IC5      TIL311         TIL311           _DIL14        _smd     1
+IC6      TIL311         TIL311           _DIL14        _smd     1
+IC7      TIL311         TIL311           _DIL14        _smd     1
+IC8      TIL311         TIL311           _DIL14        _smd     1
+IC9      74HCT573N      74HCT573N        _DIL20        _smd     1
+IC10     EPM7064S       EPM7032S_PLCCTHT _PLCC44       _smd     1
+IC11     7407N          7407N            _DIL14        _smd     1
+J1       APPLE1         EDGE44-APPLE1    EDGE44-APPLE1 _smd     1
+J2       RDY OC         JUMPER3P         _PINHEAD3     _smd     1
+LED1     green          LED              _LED3MM       _smd     1
+LED2     orange         LED              _LED3MM       _smd     1
+LED3     red            LED              _LED3MM       _smd     1
+LED4     red            LED              _LED3MM       _smd     1
+LED5     red            LED              _LED3MM       _smd     1
+R1       270            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R2       10k            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R3       470            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R4       470            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R5       330            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R6       470            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R7       470            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R8       10k            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R9       10k            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R10      10k            RESISTOR_7.5MM   _R7_5MM       _smd     1
+R11      220            RESISTOR_7.5MM   _R7_5MM       _smd     1
+S1       Start          SER              _SER          _smd     1
+S2       Step           SERL             _SERL         _smd     1
+S6       Stop           SER              _SER          _smd     1
+S7       Enable         TS-6             _TS-6         _smd     1
+S7_ALT   Enable         SER-PP_NOPLACE   _SER_NOPLACE  _smd     1
+T1       BC547          BC547C           _TO92         _smd     1
