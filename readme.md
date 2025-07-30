@@ -60,3 +60,26 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 **version changes:**
 
     - v1.1  fixed anodes of IRQ+NMI-LED to +5V.
+
+**Altera CPLD:**
+
+    To program the CPLD you need an USB-Blaster (clone) and Altera Quartus II 13.0 SP1 Software.
+    The web edition is free at Intel's website. Newer versions doesn't support this CPLD.
+
+    You need the "Intel® Quartus® II Programmer and SignalTap II" at TAB "additional software"
+    Install it on Windows 7 or 10. Connect your USB-blaster and install manual the driver from
+    the Driver folder in the Quartus folder on your drive.
+    Select the USB-Blaster hardware and open the step.pof in output_files. Click START.
+    This pof-file is for a EPM7064SLC, but it's possible to change the target to EPM7032SLC with
+    the full Quartus software package.
+
+    You have to build a small external PLCC44 programming (tht)-socket-board with 5V supply.
+    It's not safe to plug already used CPLDs from china in the card for inboard programming!!!
+    In the cpld-folder are the USB-Blaster and the CPLD pinout. Just supply the EPM70xx with 5V
+    and connect TDO, TDI, TMS, TCK, GND and +5V with the USB-Blaster.
+
+    If you want to change the verilog code you have to install the full 13.0 SP1 web software.
+    You find the Programmer in the Tools menu.
+
+![Quartus Programmer](https://github.com/vossi1/Apple1-Analyzer/blob/master/photos/quartus-programmer.png)
+
