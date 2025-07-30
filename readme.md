@@ -81,5 +81,5 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     If you want to change the verilog code you have to install the full 13.0 SP1 web software.
     You find the Programmer in the Tools menu.
 
-![Quartus Programmer](https://github.com/vossi1/Apple1-Analyzer/blob/master/photos/quartus-programmer.png)
+![Quartus Programmer](https://github.com/vossi1/Apple1-Analyzer/blob/master/cpld/quartus-programmer.png)
 
